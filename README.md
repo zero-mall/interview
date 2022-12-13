@@ -16,7 +16,8 @@ Header, Payload, Signiture 정보가 담겨 있습니다.
 OAuth란 인증(Authentication)과 권한(Authorization)을 획득하는 과정을 말합니다.      
 OAuth의 대표적인 예로는, 네이버, 카카오, 페이스북 로그인이 될 수 있습니다.      
 유저의 입장에서는 다양한 서비스에 회원가입을 하기 때문에 아이디나 비밀번호가 노출되는 것이 부담스러울 수 있습니다.      
-이럴 때 OAuth를 통해 로그인을 하게 되면 유저의 부담을 낮출 수 있습니다.      
+이럴 때 OAuth를 통해 로그인을 하게 되면 유저의 부담을 낮출 수 있습니다.        
+
 ex. 유저에게 카카오 로그인 권한 승인 요청(Authorization grant) --> Authorization Server에서 유저정보 확인 후 Access Token 전달 --> Resource Server에 Access Token 전달하고, Protected Resource(회원 아이디, 연령 등)를 받음
 ![image](https://user-images.githubusercontent.com/107039546/207290064-6d8415a9-b1a8-4913-b3a8-a3b4ea69f602.png)      
 
